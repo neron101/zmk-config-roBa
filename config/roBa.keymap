@@ -70,7 +70,7 @@
 &kp Q             &kp W             &kp E             &kp R         &kp T                                              &kp Y     &kp U  &lt 5 I    &kp O              &lt 5 P
 &kp A             &mt LEFT_SHIFT S  &mt LEFT_SHIFT D  &kp F         &kp G        &kp LS(LG(S))      &kp RS(SEMICOLON)  &kp H     &kp J  &kp K      &mt RIGHT_SHIFT L  &mt RIGHT_CONTROL LEFT_BRACKET
 &mt LEFT_SHIFT Z  &kp X             &kp C             &kp V         &kp B        &mkp MB2           &lt 6 SLASH        &kp N     &kp M  &kp COMMA  &kp DOT            &kp QUESTION
-&lt 5 CLCK        &kp LEFT_CONTROL  &kp LEFT_SHIFT    &kp LEFT_GUI  &lt 2 SPACE  &mkp MB1           &lt 4 ENTER        &kp BSPC                                       &lt 6 RIGHT_BRACE
+&lt 5 CLCK        &kp LEFT_CONTROL  &kp LEFT_SHIFT    &kp LEFT_GUI  &lt 2 SPACE  &mkp MB1           &lt 4 ENTER        &kp BSPC                                       &lt 6 RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp N5                                          &kp NUMBER_6      &kp N7             &kp N8          &kp N9           &kp N0
-&kp LEFT      &kp UP_ARROW  &kp RIGHT        &kp KP_NUMBER_6  &kp LANGUAGE_1  &key_repeat      &kp MINUS      &kp SLASH         &kp LS(QUESTION)   &kp MINUS       &kp TILDE2       &kp EXCLAMATION
-&kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &kp KP_NUMBER_3  &kp LANGUAGE_2  &kp EQUAL        &kp RS(MINUS)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SLASH
-&trans        &trans        &trans           &trans           &trans          &trans           &trans         &trans                                                                &kp RIGHT_BRACKET
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp N5                                          &kp NUMBER_6  &kp N7            &kp N8        &kp N9        &kp N0
+&kp LEFT      &kp UP_ARROW  &kp RIGHT        &kp KP_NUMBER_6  &kp LANGUAGE_1  &key_repeat      &kp MINUS      &kp HOME      &kp LS(QUESTION)  &kp MINUS     &kp TILDE2    &trans
+&kp LEFT      &kp DOWN      &kp RIGHT_ARROW  &kp KP_NUMBER_3  &kp LANGUAGE_2  &kp EQUAL        &kp RS(MINUS)  &kp END       &kp K_MUTE        &kp C_VOL_DN  &kp C_VOL_UP  &kp SLASH
+&trans        &trans        &trans           &trans           &trans          &trans           &trans         &trans                                                      &kp RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
