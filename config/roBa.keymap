@@ -114,6 +114,8 @@
 &kp LEFT         &kp DOWN      &kp RIGHT_ARROW  &trans      &kp LANG2       &trans      &kp MINUS  &trans     &mkp MB2       &trans        &trans    &trans
 &trans           &trans        &trans           &trans      &trans          &trans      &trans     &trans                                            &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         SCROLL {
