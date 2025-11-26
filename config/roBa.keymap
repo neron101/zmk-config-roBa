@@ -1,6 +1,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+
 #define MOUSE 7
 #define SCROLL 8
 #define NUM 9
@@ -71,7 +73,7 @@
 &lt 5 CLCK        &kp LEFT_CONTROL  &kp LEFT_SHIFT    &kp LEFT_GUI  &lt 2 SPACE  &mkp MB1              &lt 4 ENTER  &kp BSPC                                       &lt 6 RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
