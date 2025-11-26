@@ -3,9 +3,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define MOUSE 4
-#define SCROLL 5
-#define NUM 6
+
+#define MOUSE 7
+#define SCROLL 8
+#define NUM 9
 
 &mt {
     flavor = "balanced";
