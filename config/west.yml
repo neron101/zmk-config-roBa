@@ -5,7 +5,7 @@ manifest:
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
   projects:
-    -
+    
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: kumamuk-git
